@@ -1,5 +1,5 @@
 {
-  "name": "@ineentho/deno_ls_plugin",
+  "name": "@ineentho/tsx-ls-plugin",
   "version": "1.0.0",
   "description": "A language service plugin for Deno",
   "main": "index.js",
@@ -20,5 +20,8 @@
   "devDependencies": {
     "@types/node": "^10.12.18",
     "typescript": "^3.2.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
